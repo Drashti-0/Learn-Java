@@ -8,7 +8,7 @@ class superr {
 
 class Dog extends superr {
 
-    String color = "Black";
+    String color = "Black"; 
 
     void printColor() {
 
@@ -26,3 +26,13 @@ class Dog extends superr {
 
     }
 }
+
+
+
+
+
+
+
+
+
+
