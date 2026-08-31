@@ -4,40 +4,26 @@ public class largest{
 
 public static void main(String[] args) {
 
-    Scanner sc=new Scanner(System.in);
+    Scanner obj=new Scanner(System.in);
+    System.out.println("Enter the number: ");
 
-System.out.println("Enter YOUR Number: ");
-    int a=sc.nextInt();
+    int a=obj.nextInt();
+    int b=obj.nextInt();
+    int c=obj.nextInt();
 
-int d=3,D=113,m=39;
+    if(a>b && a>c){
+        System.out.println("A is bigger"+a);
+    }
 
-if(d>D &&d>m){
-    System.out.println("LARGEST IS drashti [d]");
-}
+    else if(b>a && b>c){
+        System.out.println("B is bigger"+b);
+    }
 
-else if(D>d && D>m){
-    System.out.println("LAREST ID Dhruti [D]");
-
-}
-
-else{
-    System.out.println("LARGEST is Mantr [m]");
-}
-
-
-
-
-
+    else{
+        System.out.println("C is bigger"+c);
+    }
     
 }
 
 
-
-
-
-
-
-
 }
-
-
